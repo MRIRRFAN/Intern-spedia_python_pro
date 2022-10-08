@@ -1,3 +1,5 @@
+# Let’s take a look at the Python Code of this game.
+
 answer_yes = ["Yes", "Y", "yes", "y"]
 answer_no = ["No", "N", "no", "n"]
 
@@ -23,7 +25,7 @@ if ans1 in answer_yes:
         print("\nYou helped a thief. Now, go to Jail. GAME OVER")
 
     else:
-        print("\nYou typed the wrong input. GOODBYE!")
+        print("\nYou typed the wrong input. Please try again!")
 
 elif ans1 in answer_no:
     print("\nNow, he is trying to kill you. Will, you knock him down? (Yes / No)\n")
@@ -37,7 +39,7 @@ elif ans1 in answer_no:
         print("\nSorry! You are dead. He was a thief & He killed you. GAME OVER")
 
     else:
-        print("\nYou typed the wrong input. GOODBYE!")
+        print("\nYou typed the wrong input. Please try again!")
 
 else:
-    print("\nYou typed the wrong input. GOODBYE!")
+    print("\nYou typed the wrong input. Please try again!")
