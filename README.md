@@ -41,6 +41,17 @@ On the other hand, if the user type No, then the code inside the elif block will
 
 At last, if the user types some wrong input, then the code inside the else block will get executed.
 
+
+## OUTPUT
+
+Case-1:
+![Screenshot 2022-10-08 165832](https://user-images.githubusercontent.com/103171462/194705212-e87c11e2-03f3-427b-aa10-41bc1617ff00.png)
+
+Case-2:
+![Screenshot 2022-10-08 165722](https://user-images.githubusercontent.com/103171462/194705222-2a572ae8-c59d-4c6c-aecb-ed7246ef8ac2.png)
+
+It may be multiple cases.
+
                                                            Thanking You
 #                                                             MD IRFAN
 
