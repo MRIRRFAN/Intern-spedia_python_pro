@@ -7,7 +7,8 @@ A Text-Based Adventure Game is a type of game in which a player has to make choi
 Based on these choices, the storyline changes, and at last, we get to know that whether the player wins or loses the game.
 
 ## Storyline
-![Python-Game-Storyline-768x547](https://user-images.githubusercontent.com/103171462/194704373-e6f76bc0-7d2f-4ef0-a48f-b412da186c5e.png)
+![Screenshot 2022-10-10 at 13-02-49 Doc1 pdf](https://user-images.githubusercontent.com/103171462/194817483-56e06e54-52de-48fb-8d0d-88d9f28d509a.png)
+
 
 Here is a diagram that will help you in better understanding the storyline of our game:
 
