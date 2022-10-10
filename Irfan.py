@@ -6,37 +6,38 @@ answer_no = ["No", "N", "no", "n"]
 print("""
 WELCOME! LET'S START THE ADVENTURE
 
-You are standing outside of your house and you see a man running towards you and asking for urgent shelter.
+Let's assume a scenario that there is placement activity in your college which is going to happen soon. & Faculties looking that who are eligible and who are not.
+The minimum required CGPA to be a part of this activity is 7cgpa. Now faculties ask to you some questions.
 
-Will you provide shelter to him. (Yes / No)
+is your CGPA >=7 ❔ (Yes / No)
 """)
 
-ans1 = input(">>")
+ans1 = input("Type your answer:")
 
 if ans1 in answer_yes:
-    print("\nAfter 2 minutes, the Police came to your house, and ask you that whether the thief is in your house or not. Will you say (Yes / No)\n")
+    print("\nOK so currently do you have any backlog . Will you say (Yes / No)\n")
 
-    ans2 = input(">>")
+    ans2 = input("Type your answer:")
 
-    if ans2 in answer_yes:
-        print("\nYou are an honest person. He was a thief & You won the Game")
+    if ans2 in answer_no:
+        print("\nCongratulations! You are eligible to be a part of placement activity.Best of luck!")
 
-    elif ans2 in answer_no:
-        print("\nYou helped a thief. Now, go to Jail. GAME OVER")
+    elif ans2 in answer_yes:
+        print("\nSorry you are not eligible. Better luck next time!")
 
     else:
         print("\nYou typed the wrong input. Please try again!")
 
 elif ans1 in answer_no:
-    print("\nNow, he is trying to kill you. Will, you knock him down? (Yes / No)\n")
+    print("\nOkay so currently do you have any backlog? (Yes / No)\n")
 
-    ans3 = input(">>")
+    ans3 = input("Type your answer:")
 
     if ans3 in answer_yes:
-        print("\nCongrats! He was a thief & You helped the police to catch him with your bravery.")
+        print("\nSorry! You should try harder.It's so sad 😔")
 
     elif ans3 in answer_no:
-        print("\nSorry! You are dead. He was a thief & He killed you. GAME OVER")
+        print("\nIt's good that you don'thave any backlog.pls maintain you CGPA.")
 
     else:
         print("\nYou typed the wrong input. Please try again!")
